@@ -1,0 +1,36 @@
+{
+  "name": "Test Progressive Web App",
+  "short_name": "Test PWA",
+  "description": "a test progressive web app",
+  "icons": [
+    {
+      "src": "favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "images/pwa-example.png",
+      "sizes": "640x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Test PWA Example"
+    },
+    {
+      "src": "images/pwa-example.png",
+      "sizes": "640x320",
+      "type": "image/png",
+      "label": "Test PWA Example"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#B12A34",
+  "background_color": "#B12A34"
+}

@@ -4,6 +4,7 @@ import path from 'path';
 import {splitVendorChunkPlugin} from 'vite';
 import {createHtmlPlugin} from 'vite-plugin-html';
 import fs from 'fs';
+import {VitePWA} from 'vite-plugin-pwa';
 
 const hash = fs.readFileSync('public/definitions/hash.json', 'utf8');
 
@@ -19,6 +20,12 @@ export default defineConfig({
       },
     }),
     splitVendorChunkPlugin(),
+    VitePWA({
+      registerType: 'autoUpdate',
+      devOptions: {
+        enabled: true,
+      },
+    }),
   ],
   assetsInclude: ['**/*.glb'],
   envDir: '.',
