@@ -1,7 +1,7 @@
 {
-  "name": "Test Progressive Web App",
-  "short_name": "Test PWA",
-  "description": "a test progressive web app",
+  "name": "VIA - App",
+  "short_name": "VIA",
+  "description": "Your keyboard's best friend",
   "icons": [
     {
       "src": "favicon-32x32.png",
@@ -16,21 +16,15 @@
   ],
   "screenshots": [
     {
-      "src": "images/pwa-example.png",
+      "src": "images/via-pwa-preview-screenshot.png",
       "sizes": "640x320",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Test PWA Example"
-    },
-    {
-      "src": "images/pwa-example.png",
-      "sizes": "640x320",
-      "type": "image/png",
-      "label": "Test PWA Example"
+      "label": "VIA - App"
     }
   ],
   "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#B12A34",
-  "background_color": "#B12A34"
+  "theme_color": "#1f1e1e",
+  "background_color": "#1f1e1e"
 }
